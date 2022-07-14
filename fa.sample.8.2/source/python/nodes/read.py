@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 
 def irm_run(io_dict):
 
-    logger.info('Print a line from input on the hash!')
+    logger.info('Print a line from input on the default master branch!')
     input_file_path = io_dict['input']
     logger.info('Get input file path: %s' % input_file_path)
     rank = int(irm_utils.get_task_rank(io_dict))
