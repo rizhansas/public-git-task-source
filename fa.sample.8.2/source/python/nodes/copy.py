@@ -4,7 +4,7 @@ import shutil
 
 def irm_run(io_dict):
     logger = logging.getLogger(__name__)
-    logger.info('Echo the input file to the output destination on the tag 4.0!')
+    logger.info('Echo the input file to the output destination on the hash!')
     input_file_path = io_dict['input']
     output_file_path = io_dict['output']
     logger.info('Input file path: %s' % input_file_path)
